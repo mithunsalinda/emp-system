@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "email": "user@gmail.com",
+      "password": "123",
+      "role": "user"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "firstName": "John",
+      "lastName": "sdsd",
+      "email": "sdsdsd@gmail.com",
+      "phoneNumber": "+977788778",
+      "gender": "male",
+      "dob": "2025-03-24T21:05:04.661Z",
+      "joinDate": "2025-03-24T21:05:04.661Z",
+      "profilePic": ""
+    }
+  ]
+}

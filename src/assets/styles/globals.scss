@@ -1,0 +1,16 @@
+@use 'variables';
+
+.highlights__t1 {
+  font-size: 3.5rem;
+  background-color: rgba($color: #c308f1, $alpha: 0.5);
+  padding: 1rem;
+  color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: variables.$bg-color-dark;
+  padding: 0 16px;
+  justify-content: space-between;
+  height: 45px;
+}

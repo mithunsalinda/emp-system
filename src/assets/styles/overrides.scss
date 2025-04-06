@@ -1,0 +1,40 @@
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-card .ant-card-head {
+  background-color: rgb(117, 117, 247);
+  color: white;
+  min-height: 41px;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-card-bordered {
+  min-height: 200px;
+  background-color: #f2f2f2;
+  overflow-y: 'hidden';
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-list .ant-list-item {
+  padding: 4px 0;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-avatar.ant-avatar-icon {
+  font-size: 12px;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-list .ant-list-items {
+  margin: 0 0 4px 0;
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 10px;
+  line-height: 0;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-list
+  .ant-list-item
+  .ant-list-item-meta
+  .ant-list-item-meta-description {
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 10px;
+  line-height: 1.5714285714285714;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-card .ant-card-body {
+  padding: 10px 10px;
+  height: auto;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-list
+  .ant-list-item
+  .ant-list-item-meta
+  .ant-list-item-meta-title {
+  line-height: 14px;
+}
