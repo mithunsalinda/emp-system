@@ -26,6 +26,7 @@ npm run dev
 
 ### 2.  Folder Structure
 src/
+├── _tests_/  
 ├── assets/       # Static assets
 ├── components/   # Reusable UI components
 ├── pages/        # Route-level pages
@@ -35,6 +36,13 @@ src/
 ├── App.tsx       # Root component
 └── main.tsx      # App entry point
 
+## ✅ Assumptions
+
+- JSON Server is hosted via Glitch and used as the mock backend.
+- Login credentials are hardcoded in db.json and basic login is implemented.
+- Pagination is handled entirely on the frontend.
+- Focus is on form validation, clean structure, and scalability.
+- The project simulates a scalable environment and could be easily swapped to use real APIs.
 
 ## 💻 Live Backend API
 
