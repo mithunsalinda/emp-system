@@ -28,12 +28,16 @@ const router = createBrowserRouter([
     ],
   },
   { path: '*', element: <PageNotFound /> },
-]);
+  
+],
+{
+  basename: '/emp-system',
+}); 
 
 function App() {
   return (
-    <Provider store={store}>
-      <RouterProvider router={router} />
+    <Provider store={store} >
+      <RouterProvider router={router}  />
     </Provider>
   );
 }
