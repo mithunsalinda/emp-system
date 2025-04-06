@@ -1,4 +1,4 @@
-# EMP System - [DEMO](https://mithunsalinda.github.io/emp-system/login)
+# EMP System - 👉 **[DEMO (Click to View)](https://mithunsalinda.github.io/emp-system/)**
 
 A modern web application built with [React](https://reactjs.org/), [Vite](https://vitejs.dev/), and [TypeScript](https://www.typescriptlang.org/).
 
