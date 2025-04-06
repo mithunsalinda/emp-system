@@ -10,7 +10,6 @@ A modern web application built with [React](https://reactjs.org/), [Vite](https:
 - State management with [Redux Toolkit With RTQ Query]
 - Ready for production build
 - Unit Test using vitest.
-- E2E Testing - ❌ HAVE NOT DONE.. ( cypress for e2e testing )
 
 ---
 
