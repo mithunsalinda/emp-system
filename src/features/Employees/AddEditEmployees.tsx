@@ -30,8 +30,7 @@ const AddEditEmployees: React.FC = () => {
   const isEdit = mode === 'edit' && id;
   const [profilePic, setProfilePic] = useState<string | null>(null);
   const [formInitialized, setFormInitialized] = useState(false);
-  const [trigger, { data: employeeData }] =
-    useLazyEmployeesByIdQuery<EmployeeData>();
+  const [trigger, { data: employeeData }] = useLazyEmployeesByIdQuery<EmployeeData>();
 
   const [addEmployee, { isLoading }] = useAddEmployeesMutation();
   const [updateEmployee, { isLoading: isUpdating }] = useEditEmployeesMutation();
@@ -217,7 +216,7 @@ const AddEditEmployees: React.FC = () => {
               beforeUpload={async (file) => {
                 const base64 = await getBase64(file);
                 setProfilePic(base64);
-                return false; 
+                return false;
               }}
               onRemove={() => setProfilePic(null)}
             >

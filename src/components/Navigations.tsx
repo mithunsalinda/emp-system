@@ -1,10 +1,5 @@
 import React from 'react';
-import {
-  DashboardOutlined,
-  PlusOutlined,
-  SettingOutlined,
-  UserOutlined,
-} from '@ant-design/icons';
+import { DashboardOutlined, PlusOutlined, SettingOutlined, UserOutlined } from '@ant-design/icons';
 import type { MenuProps } from 'antd';
 import { Menu } from 'antd';
 import { useLocation, useNavigate } from 'react-router-dom';

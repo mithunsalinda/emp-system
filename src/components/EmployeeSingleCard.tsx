@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Row, Col, Descriptions, Tag, Image } from 'antd';
-import {  ManOutlined, WomanOutlined,  } from '@ant-design/icons';
+import { ManOutlined, WomanOutlined } from '@ant-design/icons';
 
 interface EmployeeCardProps {
   firstName: string;

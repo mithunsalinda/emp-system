@@ -6,7 +6,6 @@ export const confirmAndDeleteEmployee = (id: string, deleteFn: any) => {
     okType: 'danger',
     onOk: async () => {
       try {
-
         await deleteFn(id).unwrap();
         message.success('Deleted!');
       } catch (err) {

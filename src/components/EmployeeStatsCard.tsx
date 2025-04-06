@@ -1,4 +1,3 @@
-
 import { Card, Col, Row } from 'antd';
 import { useEmployeesListQuery } from '../services/_Employees.service';
 import PieChart from './PieChart';
