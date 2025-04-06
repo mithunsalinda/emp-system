@@ -18,7 +18,7 @@ const items: MenuItem[] = [
     icon: <UserOutlined />,
   },
   {
-    key: '/employess/add-new-employee',
+    key: '/employees/add-new-employee',
     label: 'Add Employee',
     icon: <PlusOutlined />,
   },
