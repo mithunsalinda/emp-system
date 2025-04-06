@@ -9,6 +9,8 @@ A modern web application built with [React](https://reactjs.org/), [Vite](https:
 - Styled with Antd , highcharts, ag-grid-react
 - State management with [Redux Toolkit With RTQ Query]
 - Ready for production build
+- Unit Test using vitest.
+- E2E Testing - ❌ HAVE NOT DONE.. ( cypress for e2e testing )
 
 ---
 
@@ -23,7 +25,7 @@ git clone https://github.com/mithunsalinda/emp-system.git
 cd emp-system
 npm install
 npm run dev
-```
+
 ### 2.  Folder Structure
 src/
 ├── _tests_/  
@@ -35,7 +37,7 @@ src/
 ├── types/        # TypeScript type definitions
 ├── App.tsx       # Root component
 └── main.tsx      # App entry point
-
+```
 ## ✅ Assumptions
 
 - JSON Server is hosted via Glitch and used as the mock backend.
@@ -83,7 +85,7 @@ src/
 ## 💻 Live Backend API
 
 > JSON Server is hosted here:  
-**https://your-glitch-project.glitch.me**
+**https://glitch.com/edit/#!/silky-wakeful-fifth?path=README.md%3A1%3A0**
 
 All API calls are made to this URL from the frontend.  
 Example:  
