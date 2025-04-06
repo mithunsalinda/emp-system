@@ -1,54 +1,65 @@
-# React + TypeScript + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built with [React](https://reactjs.org/), [Vite](https://vitejs.dev/), and [TypeScript](https://www.typescriptlang.org/).
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fast bundling with Vite
+- Type-safe code with TypeScript
+- Styled with Antd , highcharts, ag-grid-react
+- State management with [Redux Toolkit With RTQ Query]
+- Ready for production build
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Installation & Setup
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+Follow the steps below to get the project up and running locally.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 1. Clone the repository
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x';
-import reactDom from 'eslint-plugin-react-dom';
+```bash
+git clone https://github.com/mithunsalinda/emp-system.git
+cd emp-system
+npm install
+npm run dev
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-});
-```
+### 2.  Folder Structure
+src/
+├── assets/       # Static assets
+├── components/   # Reusable UI components
+├── pages/        # Route-level pages
+├── hooks/        # Custom React hooks
+├── store/        # State management
+├── types/        # TypeScript type definitions
+├── App.tsx       # Root component
+└── main.tsx      # App entry point
+
+
+## 💻 Live Backend API
+
+> JSON Server is hosted here:  
+**https://your-glitch-project.glitch.me**
+
+All API calls are made to this URL from the frontend.  
+Example:  
+`GET https://your-glitch-project.glitch.me/test?_page=1&_limit=10`
+
+---
+
+## 🔐 Login Info
+
+The login system is basic and for demo purposes only. Credentials are stored inside the `db.json`.
+
+### Sample Credentials
+
+```json
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin@xxxxxxx",
+      "password": "xxxxx"
+    }
+  ]
+}
