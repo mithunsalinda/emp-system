@@ -23,7 +23,7 @@ git clone https://github.com/mithunsalinda/emp-system.git
 cd emp-system
 npm install
 npm run dev
-
+```
 ### 2.  Folder Structure
 src/
 ├── _tests_/  
@@ -43,6 +43,42 @@ src/
 - Pagination is handled entirely on the frontend.
 - Focus is on form validation, clean structure, and scalability.
 - The project simulates a scalable environment and could be easily swapped to use real APIs.
+
+## Extra Feature
+- Scalable login machanism with protect routs
+- Dashboard with custom widgets
+- Seperate card view for mobile device.
+- User can add the profile picture.
+
+##🧾 User Stories & Acceptance Criteria
+  ### 📝 User Story 1: View Employee List
+- Table with: First Name, Last Name, Email, Phone, Gender
+- Actions: Edit & Delete buttons on each row
+- Add Employee button navigates to add form
+
+### ➕ User Story 2: Add Employee
+- Add PRofile Picture used base64 to store in the db.json
+- First Name (6–10 characters)
+- Last Name (6–10 characters)
+- Email (valid format)
+- Phone (valid SG number)
+- Gender (radio group)
+- DOB Date (must be ≥18 years old)
+- Validations with real-time feedback
+- Highlights errors with red border and message
+
+### ✏️ User Story 3: Edit Employee
+- Edit button navigates to prefilled form
+- Same validation rules as add
+- Unsaved changes trigger warning modal I used a JavaScript modal to do that. There is an issue when I try to integrate it with the Ant Design modal. For the time being, I'm using it as is and need some time to sort it out.
+
+### 🗑️ User Story 4: Delete Employee
+- Confirmation modal on delete
+- Record is removed and table is refreshed
+
+⚠️ Error Handling
+- API errors (add/edit/delete) are gracefully handled with user-friendly error messages. in api-common.ts i have added error messages.
+
 
 ## 💻 Live Backend API
 
