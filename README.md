@@ -51,7 +51,7 @@ src/
 - Seperate card view for mobile device.
 - User can add the profile picture.
 
-##🧾 User Stories & Acceptance Criteria
+## 🧾 User Stories & Acceptance Criteria
   ### 📝 User Story 1: View Employee List
 - Table with: First Name, Last Name, Email, Phone, Gender
 - Actions: Edit & Delete buttons on each row
@@ -78,7 +78,7 @@ src/
 - Record is removed and table is refreshed
 
 ⚠️ Error Handling
-- API errors (add/edit/delete) are gracefully handled with user-friendly error messages. in api-common.ts i have added error messages.
+- API errors (add/edit/delete) are gracefully handled with user-friendly error messages. in api-common.ts i have added Server error messages.
 
 
 ## 💻 Live Backend API
